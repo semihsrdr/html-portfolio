@@ -1,0 +1,52 @@
+.gradient-background {
+    background: rgb(224,224,224);
+    background: linear-gradient(90deg, rgba(224,224,224,1) 0%, rgba(205,245,255,1) 49%, rgba(119,127,233,1) 100%);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  h1{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+  }
+  .lead{
+    font-family: 'Roboto', sans-serif;   
+  }
+  body{
+    background-color: #EEEEEE;
+  }
+  h2{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+
+  }
+  #custom-cards{
+    background-color: white;
+  }
+  .skills{
+    font-family: 'Roboto', sans-serif;
+        font-weight: 900;
+    margin-left: 50px;
+  }
+  p{
+    font-family: 'Roboto', sans-serif;;
+  }
+  h3{
+    font-family: 'Montserrat', sans-serif;
+  font-family: 'Source Code Pro', monospace;
+      font-weight: bold;
+
+  }
